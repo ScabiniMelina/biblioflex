@@ -1,5 +1,7 @@
 USE biblioflex;
-DELIMITER //
+
+DELIMITER ;
+
 CREATE TABLE IF NOT EXISTS stg_cambios_empleados (
     id INT AUTO_INCREMENT PRIMARY KEY,
     id_empleado INT,
@@ -8,7 +10,7 @@ CREATE TABLE IF NOT EXISTS stg_cambios_empleados (
     tipo_operacion ENUM('Contratación', 'Despido'),
     fecha_hora DATE DEFAULT (CURRENT_DATE)
 );
-DELIMITER ;
+
 
 
 DROP TRIGGER IF EXISTS tr_empleado_update;

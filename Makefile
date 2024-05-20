@@ -16,6 +16,16 @@ DATABASE_POPULATION=./structure/population.sql
 
 FILES := $(wildcard ./objects/*.sql)
 
+FILES := \
+    ./structure/database_structure.sql \
+    ./structure/population.sql \
+    ./objects/1_functions.sql \
+    ./objects/2_views.sql \
+    ./objects/3_store_procedures.sql \
+    ./objects/4_triggers.sql\
+	./objects/5_roles_users.sql\
+
+
 
 .PHONY: all up objects clean
 
