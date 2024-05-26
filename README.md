@@ -13,7 +13,6 @@
 @Docente Anderson Torres
 
 
-
 ---
 
 ### **Consignas:**
@@ -36,8 +35,6 @@
     - Informes generados en base a la información de la base
     - Herramientas y tecnologías usadas
 
-
-
 ---
 
 ## Tematica del proyecto
@@ -45,8 +42,10 @@
 ## Modelo de negocio
 
 ## Diagrama entidad relacion (DER)
+<img src="[https://objetivo.news/download/multimedia.normal.bcba10cea1861629.Y29kZXJob3VzZS1xdWUtZXMtcXVlLWhhY2VuX25vcm1hbC53ZWJw.webp](https://github.com/ScabiniMelina/biblioflex/blob/main/presentation/Flowchart%20(1).jpg)" style="width: 100% ; aspect-ratio:16/9">
 
 ## Listado de tablas y descripcion
+
 ### libro
 
 | Campo             | Tipo de Dato   | Tipo de Clave | Auto Increment | Default | Not Null | Unique |
@@ -154,15 +153,14 @@
 
 ### Objetos de la base de datos
 
-
-- [Estructura completa de la base de datos]()
-- [Inserción de datos]()
-- [Vistas]()
-- [Funciones]()
-- [Stored Procedures]()
-- [Triggers]()
-- [Roles y permisos]()
-- [Back up de la base de datos]()
+- [Estructura completa de la base de datos](https://github.com/ScabiniMelina/biblioflex/blob/main/structure/database_structure.sql)
+- [Inserción de datos](https://github.com/ScabiniMelina/biblioflex/blob/main/structure/population.sql)
+- [Vistas](https://github.com/ScabiniMelina/biblioflex/blob/main/objects/2_views.sql)
+- [Funciones](https://github.com/ScabiniMelina/biblioflex/blob/main/objects/1_functions.sql)
+- [Stored Procedures](https://github.com/ScabiniMelina/biblioflex/blob/main/objects/3_store_procedures.sql)
+- [Triggers](https://github.com/ScabiniMelina/biblioflex/blob/main/objects/4_triggers.sql)
+- [Roles y permisos](https://github.com/ScabiniMelina/biblioflex/blob/main/objects/5_roles_users.sql)
+- [Back up de la base de datos](https://github.com/ScabiniMelina/biblioflex/blob/main/backups/Dump20240526%20(1).sql)
 
 ## Herramientas y tecnologias usadas
 1. **Curso CoderHouse**
