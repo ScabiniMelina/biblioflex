@@ -1,18 +1,5 @@
 USE biblioflex;
 
-DELIMITER ;
-
-CREATE TABLE IF NOT EXISTS stg_cambios_empleados (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    id_empleado INT,
-    nombre VARCHAR(255),
-    apellido VARCHAR(255),
-    tipo_operacion ENUM('Contratación', 'Despido'),
-    fecha_hora DATE DEFAULT (CURRENT_DATE)
-);
-
-
-
 DROP TRIGGER IF EXISTS tr_empleado_update;
 -- TRIGGER: AGREGA EN LA TABLA EN TABLA DE STAGE INFORMACION DE NUEVAS CONTRATACIONES
 DELIMITER //

@@ -109,3 +109,13 @@ ALTER TABLE libro_prestado
 ALTER TABLE multa
     ADD CONSTRAINT fk_id_prestamo_multa FOREIGN KEY (id_prestamo) REFERENCES prestamo(id_prestamo);
 
+
+
+CREATE TABLE IF NOT EXISTS stg_cambios_empleados (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    id_empleado INT,
+    nombre VARCHAR(255),
+    apellido VARCHAR(255),
+    tipo_operacion ENUM('Contratación', 'Despido'),
+    fecha_hora DATE DEFAULT (CURRENT_DATE)
+);
