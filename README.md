@@ -37,14 +37,12 @@
 
 ---
 
-## Tematica del proyecto
-
-## Modelo de negocio
-
 ## Diagrama entidad relacion (DER)
 <img src="[https://objetivo.news/download/multimedia.normal.bcba10cea1861629.Y29kZXJob3VzZS1xdWUtZXMtcXVlLWhhY2VuX25vcm1hbC53ZWJw.webp](https://github.com/ScabiniMelina/biblioflex/blob/main/presentation/Flowchart%20(1).jpg)" style="width: 100% ; aspect-ratio:16/9">
+<img src="[[https://objetivo.news/download/multimedia.normal.bcba10cea1861629.Y29kZXJob3VzZS1xdWUtZXMtcXVlLWhhY2VuX25vcm1hbC53ZWJw.webp](https://github.com/ScabiniMelina/biblioflex/blob/main/presentation/image%20(3).png)]" style="width: 100% ; aspect-ratio:16/9">
 
-## Listado de tablas y descripcion
+
+## Listado de tablas
 
 ### libro
 
@@ -149,8 +147,6 @@
 | nombre_cargo  | VARCHAR(100)   | FK            |                |         | X        |        |
 
 
-### Estructura e ingesta de datos
-
 ### Objetos de la base de datos
 
 - [Estructura completa de la base de datos](https://github.com/ScabiniMelina/biblioflex/blob/main/structure/database_structure.sql)
@@ -164,13 +160,13 @@
 
 ## Herramientas y tecnologias usadas
 1. **Curso CoderHouse**
-   - El curso proporcionó bases para el manejo de SQL aplicado a la creación y administración de bases de datos relacionales. Analizando desde la ejecución de consultas básicas hasta el dominio de funciones, triggers y stored procedures, cada clase ha contribuido a ampliar el conjunto de habilidades con el uso de buenas practicas. Además, se han explorado temas como la gestión de objetos de base de datos, el manejo de transacciones y técnicas de respaldo y restauración.
+   - El curso proporcionó cimientos para el manejo de SQL aplicado a la creación y administración de bases de datos relacionales. Analizando desde la ejecución de consultas básicas hasta el dominio de funciones, triggers y stored procedures, cada clase ha contribuido a ampliar el conjunto de habilidades con el uso de buenas practicas. Además, se han explorado temas como la gestión de objetos de base de datos, el manejo de transacciones y técnicas de respaldo y restauración.
 
 2. **workbench  y terminal**
    - Por medio de Workbench como herramienta de interfaz gráfica para el manejo y administración de bases de datos relacionales junto al uso de la terminal se pudo llevar a cabo este proyecto.
 
 3. **SQL**
-  - Se seleccionó como la tecnología principal para diseñar y gestionar la base de datos relacional que almacena información sobre un sistema de gestión bibliotecaria.
+   - Se seleccionó como la tecnología principal para diseñar y gestionar la base de datos relacional que almacena información sobre un sistema de gestión bibliotecaria.
 
 
 ## Como levantar el proyecto en CodeSpaces GitHub
@@ -186,3 +182,10 @@
     - `make test-db` para mirar los datos de cada tabla
     - `make backup-db` para realizar un backup de mi base de datos
     - `make access-db` para acceder a la base de datos
+---
+## Documentación más detallada
+
+ [Documentación](https://github.com/ScabiniMelina/biblioflex/blob/main/presentation/Sistema%20de%20gestion%20(1).pdf)
+
+
+<img style="width: 100% ; aspect-ratio:16/9">
